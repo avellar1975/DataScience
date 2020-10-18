@@ -1,6 +1,10 @@
 # Data Science
-Repositório de trabalhos em Data Science
 
+> Repositório de trabalhos em Data Science
 
-[1]: http://www.twitter.com/avellar75
+## Ferramentas utilizadas
+
+![](./img/icones_readme.png)
+
+[wiki]: https://github.com/avellar75/DataScience/wiki
 
