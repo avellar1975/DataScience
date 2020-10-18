@@ -6,5 +6,5 @@
 
 ![](./img/icones_readme.png)
 
-[wiki]: https://github.com/avellar75/DataScience/wiki
+[wiki]: https://github.com/avellar1975/DataScience/wiki
 
