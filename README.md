@@ -2,7 +2,8 @@
 
 > Repositório de trabalhos em Data Science
 
-O primeiro estudo foi efetuado sobre a Educação no Brasil utilizando <i>datasets</i> do site http://inep.gov.br .
+O primeiro estudo foi efetuado sobre a Educação no Brasil utilizando <i>datasets</i> do site http://inep.gov.br.
+O dataset é uma amostra selecionada da base do ENEM 2019: http://download.inep.gov.br/microdados/microdados_enem_2019.zip
 
 As ferramentas utilizadas foram baseadas em Python, conforme item abaixo.
 
@@ -30,6 +31,4 @@ As ferramentas utilizadas foram baseadas em Python, conforme item abaixo.
 <p>Seaborn é uma biblioteca de visualização de dados Python baseada em matplotlib . Ele fornece uma interface de alto nível para desenhar gráficos estatísticos atraentes e informativos.</p>
 <p>Matplotlib é uma biblioteca abrangente para a criação de visualizações estáticas, animadas e interativas em Python.</p>
 
-
-[wiki]: https://github.com/avellar1975/DataScience/wiki
 
