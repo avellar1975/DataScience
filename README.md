@@ -6,7 +6,7 @@ O primeiro estudo foi efetuado sobre a Educação no Brasil utilizando <i>datase
 O dataset é uma amostra selecionada da base do ENEM 2019: http://download.inep.gov.br/microdados/microdados_enem_2019.zip
 
 Foi criado um script para dividir o arquivo original em 11 partes menores e a partir das partes é possível criar outras bases para análises específicas.
-* [Script](https://media.githubusercontent.com/media/avellar1975/DataScience/main/dados/script_dividir_arquivo.txt)
+* [Script](dados/script.md)
 
 As ferramentas utilizadas foram baseadas em Python, conforme item abaixo.
 
