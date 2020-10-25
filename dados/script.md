@@ -18,13 +18,15 @@ e dividir em partes de 10 linhas, teremos 11 partes
 `head -1 parte00 > cabecalho`
 
 #### Gerar todos os arquivos com o cabeçalho a partir do arquivo parte01
+```
+cat cabecalho parte01 > parte_01 && rm parte01`
+(...)
+cat cabecalho parte010 > parte_010 && rm parte010`
 
-`cat cabecalho parte01 > parte_01 && rm parte01`
-
+```
 ## No Python:
 ---
 
-```
 """Script para selecionar dados para análise."""
 import pandas as pd
 
