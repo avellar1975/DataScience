@@ -11,6 +11,8 @@ provas = ['NU_NOTA_REDACAO',
 
 frames = []
 
+LIMITE = 3500
+
 for arquivo in lista_arquivos:
     file_temp = pd.read_csv(f"{arquivo}", delimiter=";", encoding="ISO-8859-1")
     file_temp = pd.DataFrame(file_temp)
@@ -18,7 +20,7 @@ for arquivo in lista_arquivos:
     file_temp['NU_NOTA_FINAL'] = file_temp[provas].sum(axis=1)
     print(f'Coluna NU_NOTA_FINAL criada')
     print(f'Total de linhas e colunas: {file_temp.shape}')
-    file_temp = file_temp.query('NU_NOTA_FINAL > 2754.125')
+    file_temp = file_temp.query('NU_NOTA_FINAL > LIMITE')
     print(f'Query do {arquivo} concluída com total de registros: {file_temp.shape} ')
     frames.append(file_temp)
 
