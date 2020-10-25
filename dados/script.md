@@ -58,3 +58,4 @@ print('Salvando csv...')
 resultado.to_csv('data_final.csv', index=False)
 print('Fim da operação')
 ```
+[Arquivo python](https://github.com/avellar1975/DataScience/blob/main/dados/script_python.py)
