@@ -22,28 +22,37 @@ e dividir em partes de 10 linhas, teremos 11 partes
 `cat cabecalho parte01 > parte_01 && rm parte01`
 
 ## No Python:
+---
 
-#### Ler os arquivos no python
-
-`>>> parte_00 = pd.read_csv("parte_00", delimiter=";", encoding="ISO-8859-1")`
-
-#### Transformar cada parte em um DataFrame
-
-`>>> df00 = pd.DataFrame(parte_00)`
-
-#### Fazer uma query em cada arquivo
 ```
->>> df_00 = df00.query('NU_IDADE <= 14')
->>> (...)
->>> df_10 = df10.query('NU_IDADE <= 14')
-```
-#### Concatenar os resultados
-```
->>>frames = [df1, df2, df3, ...]
+"""Script para selecionar dados para análise."""
+import pandas as pd
 
->>>result = pd.concat(frames)
+lista_arquivos = [f'parte_0{x}' for x in range(11)]
+
+provas = ['NU_NOTA_REDACAO',
+          'NU_NOTA_CN',
+          'NU_NOTA_CH',
+          'NU_NOTA_LC',
+          'NU_NOTA_MT']
+
+frames = []
+
+for arquivo in lista_arquivos:
+    file_temp = pd.read_csv(f"{arquivo}", delimiter=";", encoding="ISO-8859-1")
+    file_temp = pd.DataFrame(file_temp)
+    print(f'Arquivo {arquivo} criado como DataFrame')
+    file_temp['NU_NOTA_FINAL'] = file_temp[provas].sum(axis=1)
+    print(f'Coluna NU_NOTA_FINAL criada')
+    print(f'Total de linhas e colunas: {file_temp.shape}')
+    file_temp = file_temp.query('NU_NOTA_FINAL > 2754.125')
+    print(f'Query do {arquivo} concluída com total de registros: {file_temp.shape} ')
+    frames.append(file_temp)
+
+print('Iniciando concatenação...')
+resultado = pd.concat(frames)
+
+print('Salvando csv...')
+resultado.to_csv('data_final.csv', index=False)
+print('Fim da operação')
 ```
-
-#### Gerar arquivo csv
-
-`>>> result.to_csv('df_final.csv', index=False)`
