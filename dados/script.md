@@ -26,7 +26,7 @@ cat cabecalho parte010 > parte_010 && rm parte010`
 ```
 ## No Python:
 ---
-
+```
 """Script para selecionar dados para análise."""
 import pandas as pd
 
