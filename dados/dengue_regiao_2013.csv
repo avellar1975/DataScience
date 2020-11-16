@@ -1,0 +1,29 @@
+DENGUE - Notificações registradas no Sistema de Informação de Agravos de Notificação - Brasil
+Casos Prováveis por Região de residência e Mês 1º Sintoma(s)
+Ano 1º Sintoma(s): 2008, 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020
+Mês 1º Sintoma(s): Janeiro, Fevereiro, Marco, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro
+Região de residência: 1 Região Norte, 2 Região Nordeste, 3 Região Sudeste, 4 Região Sul, 5 Região Centro-Oeste
+Período:2007-2013
+"Região de residência";"Jan";"Fev";"Mar";"Abr";"Mai";"Jun";"Jul";"Ago";"Set";"Out";"Nov";"Dez";"Total"
+"1 Região Norte";73457;87339;75562;40717;24570;15549;11040;9761;8147;10092;20303;28678;405215
+"2 Região Nordeste";58054;98833;182464;211807;188977;94785;59660;39533;23406;18425;19392;20276;1015612
+"3 Região Sudeste";155959;306176;654002;670539;339936;93846;30625;16234;11530;13000;19071;37194;2348112
+"4 Região Sul";9789;24812;47754;39308;15475;2640;668;398;403;573;1086;3121;146027
+"5 Região Centro-Oeste";127866;133401;138940;115114;70883;27323;14171;10584;9641;14304;28773;44963;735963
+"Total";425125;650561;1098722;1077485;639841;234143;116164;76510;53127;56394;88625;134232;4650929
+ Fonte: Ministério da Saúde/SVS - Sistema de Informação de Agravos de Notificação - Sinan Net
+ Notas:
+ 
+ ncluídas notificações de indivíduos residentes no Brasil, independente de sua confirmação, exceto os descartados, pois em situações de epidemia nem sempre é possível confirmar todos os casos.
+ Para tabular os óbitos por dengue até 2012, deve-se considerar apenas os casos graves (DCC, FHD, SCD, DSA, DG) em que a evolução seja "óbito pelo agravo notificado" com critério de confirmação laboratorial e clínico-epidemiológico. A partir de 2013,
+ Períodos Disponíveis ou período - Correspondem aos anos de notificação dos casos.
+ Para cálculo da incidência utilize locais de residência.
+ Dados de 2007 atualizados em 30/08/2009.
+ Dados de 2008 atualizados em 17/03/2011.
+ Dados de 2009 atualizados em 23/06/2011.
+ Dados de 2010 atualizados em 18/06/2011.
+ Dados de 2011 atualizados em 11/01/2012.
+ Dados de 2012 atualizados em 25/07/2013.
+ Dados de 2013 atualizados em 10/07/2014.
+ Data da publicação dos dados 04/02/2019.
+ 
