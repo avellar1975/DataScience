@@ -1,0 +1,29 @@
+DENGUE - Notificações registradas no Sistema de Informação de Agravos de Notificação - Brasil
+Casos Prováveis por Região de residência e Mês 1º Sintoma(s)
+Ano 1º Sintoma(s): 2013
+Mês 1º Sintoma(s): Janeiro, Fevereiro, Marco, Abril, Maio, Junho, Julho, Agosto, Setembro, Outubro, Novembro, Dezembro
+Região de residência: 1 Região Norte, 2 Região Nordeste, 3 Região Sudeste, 4 Região Sul, 5 Região Centro-Oeste
+Período:2013
+"Região de residência";"Jan";"Fev";"Mar";"Abr";"Mai";"Jun";"Jul";"Ago";"Set";"Out";"Nov";"Dez";"Total"
+"1 Região Norte";9713;10645;9636;6681;3794;1990;1146;801;718;802;1417;1253;48596
+"2 Região Nordeste";9483;16983;25938;25218;20827;14331;11327;8570;5035;3467;3559;2298;147036
+"3 Região Sudeste";71550;136992;309042;262240;83113;21335;6438;3092;2414;2452;3050;3140;904858
+"4 Região Sul";5916;12783;21801;17288;6091;1268;236;95;89;145;314;425;66451
+"5 Região Centro-Oeste";55548;59296;58300;40595;21978;8920;3956;2277;1833;2295;3460;3493;261951
+"Total";152210;236699;424717;352022;135803;47844;23103;14835;10089;9161;11800;10609;1428892
+ Fonte: Ministério da Saúde/SVS - Sistema de Informação de Agravos de Notificação - Sinan Net
+ Notas:
+ 
+ ncluídas notificações de indivíduos residentes no Brasil, independente de sua confirmação, exceto os descartados, pois em situações de epidemia nem sempre é possível confirmar todos os casos.
+ Para tabular os óbitos por dengue até 2012, deve-se considerar apenas os casos graves (DCC, FHD, SCD, DSA, DG) em que a evolução seja "óbito pelo agravo notificado" com critério de confirmação laboratorial e clínico-epidemiológico. A partir de 2013,
+ Períodos Disponíveis ou período - Correspondem aos anos de notificação dos casos.
+ Para cálculo da incidência utilize locais de residência.
+ Dados de 2007 atualizados em 30/08/2009.
+ Dados de 2008 atualizados em 17/03/2011.
+ Dados de 2009 atualizados em 23/06/2011.
+ Dados de 2010 atualizados em 18/06/2011.
+ Dados de 2011 atualizados em 11/01/2012.
+ Dados de 2012 atualizados em 25/07/2013.
+ Dados de 2013 atualizados em 10/07/2014.
+ Data da publicação dos dados 04/02/2019.
+ 
